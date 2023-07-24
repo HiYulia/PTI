@@ -1,5 +1,5 @@
 ## Architechture
-lpips_type = 'alex'
+lpips_type = 'vgg'
 first_inv_type = 'w'
 optim_type = 'adam'
 
@@ -13,7 +13,7 @@ regulizer_alpha = 30
 
 ## Loss
 pt_l2_lambda = 1
-pt_lpips_lambda = 0.001
+pt_lpips_lambda = 1
 
 ## Steps
 LPIPS_value_threshold = 0.06
