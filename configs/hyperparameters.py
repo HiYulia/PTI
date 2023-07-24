@@ -16,7 +16,7 @@ pt_l2_lambda = 1
 pt_lpips_lambda = 1
 
 ## Steps
-LPIPS_value_threshold = 0.20
+LPIPS_value_threshold = 0.001
 max_pti_steps = 350
 first_inv_steps = 450
 max_images_to_invert = 30
