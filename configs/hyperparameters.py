@@ -1,5 +1,5 @@
 ## Architechture
-lpips_type = 'vgg'
+lpips_type = 'alex'
 first_inv_type = 'w'
 optim_type = 'adam'
 
@@ -25,4 +25,4 @@ max_images_to_invert = 30
 pti_learning_rate = 3e-4
 first_inv_lr = 5e-3
 train_batch_size = 1
-use_last_w_pivots = False
+use_last_w_pivots = True
